@@ -14,11 +14,11 @@ function Exercise3()
     console.log(Name5);
     console.log(Name6);
     let arrayCiutats = [Name1, Name2, Name3, Name4, Name5, Name6];
-    // ------------------ FASE 2 ----------------------
+    // ------------------ FASE 2 -------------------------
     arrayCiutats.sort();
     console.log(arrayCiutats);
     let arrayCiutatsModificades = [];
-    // ------------------ FASE 3 ----------------------
+    // ------------------ FASE 3 -------------------------
     for(let city = 0; city < arrayCiutats.length; city++)
     {
         let cityA = arrayCiutats[city];
